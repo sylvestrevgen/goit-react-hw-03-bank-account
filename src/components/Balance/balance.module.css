@@ -1,0 +1,24 @@
+.balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 38px 0;
+}
+
+.span {
+  display: block;
+  color: #5c6975;
+  font-weight: 700;
+}
+
+.span:not(:last-child) {
+  margin-right: 30px;
+}
+
+.arrowDown {
+  color: #e73439;
+}
+
+.arrowUp {
+  color: #96c562;
+}
